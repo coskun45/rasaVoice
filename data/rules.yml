@@ -1,0 +1,33 @@
+version: "3.1"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: Say 'your name' anytime the user asy your name
+  steps:
+  - intent: name_frage
+  - action: utter_name_antwort
+
+- rule: sag immer dein alt, wenn user nach deinem alt gefragt hat
+  steps:
+  - intent: alt_frage
+  - action: utter_alt_antwort
+
+- rule: sag immer dein wohnort, wenn user nach deinem wohnort gefragt hat
+  steps:
+  - intent: wohnort_frage
+  - action: utter_wohnort_antwort
+
+- rule: sag immer dein hobby, wenn user nach deinem hobby gefragt hat
+  steps:
+  - intent: hobby_frage
+  - action: utter_hobby_antwort

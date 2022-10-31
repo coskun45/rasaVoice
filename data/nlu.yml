@@ -1,0 +1,115 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hallo
+    - guten morgen ich bin eyup
+    - guten abend
+    - moin
+    - servus
+    - guten morgen
+
+- intent: goodbye
+  examples: |
+    - ciao
+    - tschüss
+    - bye
+    - guten abend
+    - macht es gut
+    - guten tag
+    - auf wiedersehen
+    - bye bye
+
+  
+
+- intent: hobby_frage
+  examples: |
+    - was ist dein Hobby
+    
+    
+
+- intent: affirm
+  examples: |
+    - ja
+    - du hast recht
+    - tatsächlich
+    - natürlich
+    - das klingt good
+    - korrekt
+
+- intent: deny
+  examples: |
+    - nein
+    - n
+    - nie
+    - Ich glaube nicht
+    - mag das nicht
+    - Eigentlich nicht
+
+- intent: mood_great
+  examples: |
+    - perfekt
+    - mir geht es gut
+    - erstaunlich
+    - sich wie ein König fühlen
+    - wunderbar
+    - Ich fühle mich sehr gut
+    - Ich bin großartig
+    - Ich bin unglaublich
+    - Ich werde die Welt retten
+    - super geschürt
+    - extrem gut
+    - so so perfekt
+    - so gut
+    - so perfekt
+
+- intent: mood_unhappy
+  examples: |
+    - mein Tag war schrecklich
+    - Ich bin traurig
+    - Ich fühle mich nicht sehr gut
+    - Ich bin enttäuscht
+    - super traurig
+    - Ich bin so traurig
+    - traurig
+    - sehr traurig
+    - unglücklich
+    - nicht gut
+    - nicht sehr gut
+    - sehr traurig
+    - und saad
+    - so traurig
+    - mir geht es schlecht
+
+- intent: bot_challenge
+  examples: |
+    - bist du ein Bot?
+    - bist du ein Mensch?
+    - spreche ich mit einem Bot?
+    - spreche ich mit einem Menschen?
+
+- intent: name_frage
+  examples: |
+    - Wie heißt du
+    - wie heißen sie
+
+- intent: alt_frage
+  examples: |
+    - Wie alt bist du
+    - Wie alt sind sie
+    - wie viel jahre alt bist du
+
+- intent: wohnort_frage
+  examples: |
+    - wo wohnst du
+    - wo wohnen sie
+
+- intent: versicherung
+  examples: |
+    - ich möchte mich über KFZ versicherung beraten lassen.
+    - ich möchte mich über Auto versicherung beraten lassen.
+    

@@ -1,0 +1,57 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - versicherung
+  - hobby_frage
+  
+
+
+responses:
+
+  utter_greet:
+  - text: "Hey! Hallo ich bin die neue KFZ-Beraterin Frau Sonnenschein wie geht es Ihnen ?"
+
+  utter_start:
+  - text: "Hallo ich bin die neue KFZ-Beraterin Frau Sonnenschein wie geht es dir"
+
+  utter_cheer_up:
+  - text: "Es gibt etwas, das dich aufheitert:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Hat dir das geholfen?"
+
+  utter_happy:
+  - text: "Großartig, mach weiter!"
+
+  utter_name_antwort:
+  - text: "Ich bin Frau Sonnenschein"
+
+  utter_goodbye:
+  - text: "tschüss"
+
+  utter_iamabot:
+  - text: "Ich bin ein bot, macht dir keine Sorge, trotzdem kann ich dir helfen."
+
+  utter_alt_antwort:
+  - text: "ich bin 30 jahre alt."
+
+  utter_wohnort_antwort:
+  - text: "ich wohne momentan in adesso Nürnberg. Ich bin ursprunglich Nürnbergerin. Aber ich  werde in der Zukunft ins Internet umziehen"
+
+  utter_versicherung_antwort:
+  - text: "ja gerne. Können wir eine KFZ versicherung abschließen. Könnten wir damit beginnen"
+
+  utter_hobby_antwort:
+  - text: "mein hobby ist rad zu fahren"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

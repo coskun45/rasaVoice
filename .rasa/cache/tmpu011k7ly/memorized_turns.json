@@ -1,0 +1,16 @@
+{
+  "lookup": {
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFEpLSlKL4otLEotKamtjAbHLEno=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFEpLSlKL4otLEotKagkohXJyMotLUvOAakuLU4uAajLzgNwSK4X0otRUoBmxAA0tLE4=": "utter_greet",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFEpLSlKL4otLEotKagkohXJyMotLUvOAakuLU4uAajLzgNwSK4X0otRUgmZArIMoxWVCLAC6R0Vg": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFEpLSlKL4otLEotKagkohXJyMotLUvOAakuLU4uAajLzgNwSK4X0otRUgmZArIMoJc8EAq7Izc9PAZmfCDQoFgB9LWE+": "utter_happy",
+    "eJydjl0KgCAQhK+yB+gEXiVCllpKyB/WNQjx7hn2nNHbDHx8M2MuA+TAdGicxXinILegHVpSkESIdRRkKR30KbuJQq6yKRJXxrhaRcHKRF1Hm2voP0PnhfV+uf348cqGIZzvmukCO498ZQ==": "action_listen",
+    "eJydjtEJgDAMRFfJAE7QVURC0KAFTUuaClK6u4X6X/DvDh7vbi51ghKVb6TVfBAHpQcUuthBNmPFZKRWB+hXTp+MpbE5sTbGS6vmYFfmoaPPdfSfYfDiCmHDLAfF+NS6vEGGYjA=": "utter_cheer_up",
+    "eJydjtEJwCAMRFdxgE7gKqWI2FCFGkOMhSLuXsH+W/oT7uDxcmtti6rEcBnrJCTUqo5g0EbQqogAmyyWpU3Qt5whC2BnSwbuTMBeRauDAaaO8W6g/wyTFTGl3RT0luj+NsZ56LfQzLU9vJZ/cg==": "utter_did_that_help",
+    "eJytjlEKAyEMRK/iAXoCr1JKCOtQhd0oMRaK7N0r2H/L0p8wA4+Xuffz5npRvIg3S1m86zOQ8AHvmhmUqrHauUC/ZU/VIINtFTqYJKOad08Flo75bqLXDIsVR86BmkQu5f3bmC1i3Fb+4QopkEU2itiXwscH/1+esg==": "action_listen",
+    "eJytj0EKAyEMRa/iAXoCrzIMIYyZKoxRYiwU8e4V7N7SdhPy4fHys7V+My0LPQAPDYmtaXMBxkjWVFUSKIqifYG+wxWKEg+2FpLBBB5RrbkL0dIxz030O8OiRUzJQWWPOT8/K3N4GrPmf7hccKAeFTxdPwoXf+J5Bom97y9UPbjk": "utter_happy",
+    "eJytj1EKwyAMhq/iAXYCr1JKCDWdQo0S42BI7z7BvQ7LtpeQwMf3/1naeTMtCz0ANw2JrWljAcZI1lRVEiiKoucEfR9HKErc2VpIOhO4n2rNXYimjhE30O8MkxYxJQeVPeb8vFZm89Rnzf9wueBAPSp4On4UTv7EfQ8Sr7UaeR8V6wsVNdJf": "action_listen",
+    "eJytj1EKAyEMRK/iAXoCr1JKkHWowm6UGAtF9u4N2H9L25+QgcfL5DrOixtV8KCwaS7s3ZgLcTjgXVeFUNMgei7Qd9hzU7CxvUGMyWxRvbsLsHTMcxP9zrBocZQSqXMKtT4/K7Ml2Oz1H66YI2kKSgn7j8LFnxFsitsL40y4Hw==": "utter_goodbye",
+    "eJytj1EKwyAQRK/iAXoCrxLCYuMQhWQVXQtBcvcK9jcY2v4su/B4MzvV86FqTHiRWcQH1qr2hdjs0KqIIFEWk+QcoJ9j81nAjS0ZqTGe2ylarQkYOnpcR78zDFrsIVgq7EyMx70yi0ObJf7DZb0lcUbIYftROPjTgm92Wlvo88CVYn4DchnRnA==": "action_listen"
+  }
+}
