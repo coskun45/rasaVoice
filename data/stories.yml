@@ -4,32 +4,9 @@ stories:
 
 - story: happy path
   steps:
-  - action: utter_start
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
-  - intent: versicherung
-  - action: utter_versicherung_antwort
-  
-- story: sad path 1
-  steps:
-  - action: utter_start
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
-
-- story: sad path 2
-  steps:
-  - action: utter_start
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_goodbye
+  - intent: greet   #- hallo. mein name ist [eyup](name). wie geht es ihnen?
+  - action: utter_greet #"Hallo {name} ich bin die neue KFZ-Beraterin Frau Sonnenschein. Ich bin ganz gut. wie geht es Ihnen?"
+  - intent: mood_great #mir geht es auch gut
+  - action: utter_happy #"super {name} mach weiter !"
+  - intent: versicherung #ich möchte mich über KFZ versicherung beraten lassen.
+  - action: utter_versicherung_antwort #"ja gerne. Können wir eine KFZ versicherung abschließen. Könnten wir damit beginnen"

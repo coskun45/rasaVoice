@@ -1,0 +1,11 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taS2NhYA6dwbhQ==": "utter_greet",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpbhMiAUAQvc0lw==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZQMAVufn5KSDzE4EGxQIAPEFQdQ==": "utter_happy",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZQMAVufn5KSDzE4l0SkZiQUElfmNiAVKZa5w=": "action_listen",
+    "eJyljlEKgCAQBa/iATqBV4kQqUcJtcq6BiHePaP+jfp7D4Zh+lw6lQNjN3YU50mrfA9DdoNWz1ldFFBlUwRXxlG9otXMgJSGI4mAzY1+MzQqNu+ny29fpiw2hOOPptGzg6MbF3CiuZThBA6WiG4=": "utter_versicherung_antwort",
+    "eJylkFEKgzAQRK+SA/QEuUopYbGDBnQTNhtLCd69Ef1QKETavx2YeTz2XpabKVEwO+rUB7ambIdjmmDNHkafFFy7OUFqx3ONak0vgC4NRlaFuK36G6FhMYXwXPl0UWWgGN//YBo+MyT5boBk7q8ZHReOWF9BvvzqzH18AOCIquo=": "action_listen"
+  }
+}

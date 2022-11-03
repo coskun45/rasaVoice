@@ -10,13 +10,38 @@ intents:
   - bot_challenge
   - versicherung
   - hobby_frage
-  
+  - name_frage
+  - alt_frage
+  - wohnort_frage
+
+entities:
+  - name
+
+slots:
+  name:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: name  
 
 
 responses:
 
   utter_greet:
-  - text: "Hey! Hallo ich bin die neue KFZ-Beraterin Frau Sonnenschein wie geht es Ihnen ?"
+  - text: "Hallo {name} ich bin die neue KFZ-Beraterin Frau Sonnenschein. Ich bin ganz gut. wie geht es Ihnen?"
+
+  utter_happy:
+  - text: "super {name} mach weiter !"
+
+  utter_versicherung_antwort:
+  - text: "ja gerne. Können wir eine KFZ versicherung abschließen. Könnten wir damit beginnen"
+
+
+
+
+
+
 
   utter_start:
   - text: "Hallo ich bin die neue KFZ-Beraterin Frau Sonnenschein wie geht es dir"
@@ -28,8 +53,7 @@ responses:
   utter_did_that_help:
   - text: "Hat dir das geholfen?"
 
-  utter_happy:
-  - text: "Großartig, mach weiter!"
+  
 
   utter_name_antwort:
   - text: "Ich bin Frau Sonnenschein"
@@ -46,8 +70,7 @@ responses:
   utter_wohnort_antwort:
   - text: "ich wohne momentan in adesso Nürnberg. Ich bin ursprunglich Nürnbergerin. Aber ich  werde in der Zukunft ins Internet umziehen"
 
-  utter_versicherung_antwort:
-  - text: "ja gerne. Können wir eine KFZ versicherung abschließen. Könnten wir damit beginnen"
+  
 
   utter_hobby_antwort:
   - text: "mein hobby ist rad zu fahren"

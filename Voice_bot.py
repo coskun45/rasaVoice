@@ -16,17 +16,7 @@ import os
 bot_message = ""
 message=""
 
-r = requests.post('http://localhost:5002/webhooks/rest/webhook', json={"message": "Hello"})
 
-print("Bot says, ",end=' ')
-for i in r.json():
-    bot_message = i['text']
-    print(f"{bot_message}")
-
-myobj = gTTS(text=bot_message,lang='de')
-myobj.save("welcome.mp3")
-print('saved')
-playsound.playsound("welcome.mp3")
 
 while bot_message != "Bye" or bot_message!='thanks':
     counter=1
